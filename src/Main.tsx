@@ -7,7 +7,7 @@ const MusicRoute = () => (
   <FeedList />
 );
 
-const AlbumsRoute = () => <Text>Albums</Text>;
+const AlbumsRoute = () => <Text>Albums 1</Text>;
 
 const RecentsRoute = () => <Text>Recents</Text>;
 
