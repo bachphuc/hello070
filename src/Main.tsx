@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, View } from "react-native";
+import FastImage from "react-native-fast-image";
 import { Appbar, BottomNavigation } from 'react-native-paper';
 import FeedList from "./FeedList";
 
@@ -9,7 +10,18 @@ const MusicRoute = () => (
 
 const AlbumsRoute = () => <Text>Albums 4</Text>;
 
-const RecentsRoute = () => <Text>Recents</Text>;
+const RecentsRoute = () => (
+  <View>
+    <Text>Recents</Text>
+    <FastImage 
+      style={{
+        width: 200,
+        height: 200
+      }}
+      source={{uri: 'https://picsum.photos/700'}}
+    />
+  </View>
+);
 
 const NotificationsRoute = () => <Text>Notifications</Text>;
 

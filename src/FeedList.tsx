@@ -24,6 +24,7 @@ export function FeedItem({item}: {item: FeedItem}){
         <Title>{item.title}</Title>
         <Paragraph>{item.desc}</Paragraph>
       </Card.Content>
+      <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
       <Card.Actions>
         <Button>Cancel</Button>
         <Button>Ok</Button>
